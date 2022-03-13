@@ -36,7 +36,7 @@
 
 ### Obj methods
 
-### clone {#clone-obj}
+### clone <a id="clone-obj"></a>
 
 Creates a deep clone of object.
 
@@ -76,7 +76,7 @@ false
 Obj { id: 1, username: 'Suleiman', info: { bio: "I'm programmer" } }
 ```
 
-### clone `static` {#clone-static-obj}
+### clone `static` <a id="clone-static-obj"></a>
 
 Creates a deep clone of object.
 
@@ -115,7 +115,7 @@ false
 Obj { id: 1, username: 'Suleiman', info: { bio: "I'm programmer" } }
 ```
 
-### cloneAsTemplate {#clone-template-obj}
+### cloneAsTemplate <a id="clone-template-obj"></a>
 
 Creates a deep clone of object keys.
 
@@ -159,7 +159,7 @@ Obj { id: undefined, username: undefined, info: { bio: undefined } }
 Obj { id: undefined, username: 'Osama', info: { bio: undefined } }
 ```
 
-### $ {#path-key-obj}
+### $ <a id="path-key-obj"></a>
 
 Gets the value at path key of object.
 
@@ -197,7 +197,7 @@ I'm programmer
 undefined
 ```
 
-### $s {#set-key-obj}
+### $s <a id="set-key-obj"></a>
 
 Sets the value at path key of object. If path key doesn't exist, it's created.
 
@@ -243,7 +243,7 @@ example@example.com
 { twitter: '@sulealothman' }
 ```
 
-### includes {#includes-obj}
+### includes <a id="includes-obj"></a>
 
 Checks if key is in object.
 
@@ -312,7 +312,7 @@ true
 ```
 
 
-### includes `static` {#includes-static-obj}
+### includes `static` <a id="includes-static-obj"></a>
 
 Checks if key is in object.
 
@@ -384,7 +384,7 @@ Output
 true
 ```
 
-### remove {#remove-obj}
+### remove <a id="remove-obj"></a>
 
 Removes key/subKey from object.
 
@@ -450,7 +450,7 @@ Obj { id: 1, username: 'Suleiman', info: { bio: "I'm programmer" } }
 Obj { id: 1, username: 'Suleiman', info: {} }
 ```
 
-### remove `static` {#remove-static-obj}
+### remove `static` <a id="remove-static-obj"></a>
 
 Removes key/subKey from object.
 
@@ -521,7 +521,7 @@ Obj { id: 1, username: 'Suleiman', info: { bio: "I'm programmer" } }
 Obj { id: 1, username: 'Suleiman', info: {} }
 ```
 
-### isObj `static` {#is-obj}
+### isObj `static` <a id="is-obj"></a>
 
 Checks if value is Object.
 
@@ -562,7 +562,7 @@ false
 true
 ```
 
-### length `get` {#length-obj}
+### length `get` <a id="length-obj"></a>
 
 Gets the length of object keys.
 
@@ -590,7 +590,7 @@ Output
 3
 ```
 
-### asJson {#asjson-obj}
+### asJson <a id="asjson-obj"></a>
 
 Converts this object to a JSON string.
 
@@ -628,7 +628,7 @@ Output
 {"username":"suleiman","bio":"I'm developer","email":"example@example.com"}
 ```
 
-### parse {#parse-obj}
+### parse <a id="parse-obj"></a>
 
 Parses a JSON string.
 
@@ -665,7 +665,7 @@ Obj { id: 1, language: 'javascript' }
 
 ### Arr Methods
 
-### remove {#remove-arr}
+### remove <a id="remove-arr"></a>
 
 Removes an item/items by value.
 
@@ -722,7 +722,7 @@ Arr(3) [ 2, 3, 4 ]
 ```
 
 
-### sortBy {#sort-by-arr}
+### sortBy <a id="sort-by-arr"></a>
 
 Sorts the array by the `order`.
 
@@ -756,7 +756,7 @@ false
 true
 ```
 
-### isEqual {#is-equal-arr}
+### isEqual <a id="is-equal-arr"></a>
 
 Compares between two arrays to determine if they are equivalent.
 
@@ -791,7 +791,7 @@ true
 ```
 
 
-### fixed {#fixed-arr}
+### fixed <a id="fixed-arr"></a>
 
 Removes all empty items `undefined` from array.
 
@@ -818,7 +818,7 @@ Output
 5 Arr(5) [ 1, 2, 3, 4, 100 ]
 ```
 
-### fixed `static` {#fixed-static-arr}
+### fixed `static` <a id="fixed-static-arr"></a>
 
 Removes all empty items `undefined` from array.
 
@@ -851,7 +851,7 @@ Output
 5 [ 1, 2, 3, 4, 100 ]
 ```
 
-### size `get` {#size-arr}
+### size `get` <a id="size-arr"></a>
 
 Gets the actual size of array.
 
@@ -878,7 +878,7 @@ Output
 101
 ```
 
-### size `static` {#size-static-arr}
+### size `static` <a id="size-static-arr"></a>
 
 Gets the actual size of array.
 
@@ -911,7 +911,7 @@ Output
 101
 ```
 
-### isEmpty `get` {#is-empty-arr}
+### isEmpty `get` <a id="is-empty-arr"></a>
 
 Checks if array is an empty.
 
@@ -940,7 +940,7 @@ Arr(4) [ 1, 2, 3, 4 ]
 false
 ```
 
-### isEmpty `static` {#is-empty-static-arr}
+### isEmpty `static` <a id="is-empty-static-arr"></a>
 
 Checks if array is an empty.
 
@@ -975,7 +975,7 @@ Output
 false
 ```
 
-### clear {#clear-arr}
+### clear <a id="clear-arr"></a>
 
 Removes all items from array.
 
